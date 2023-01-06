@@ -1,0 +1,207 @@
+DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <script>
+      (function printNumbers() {
+        for (var counter = 1; counter < 11; counter++) {
+          console.log(counter);
+        }
+      })();
+      (function printOddNumbers() {
+        for (var counter = 1; counter < 11; counter += 2) {
+          console.log(counter);
+        }
+      })();
+      (function printEvenNumbers() {
+        for (var counter = 2; counter < 11; counter += 2) {
+          console.log(counter);
+        }
+      })();
+    </script> -->
+
+    <!-- <script>
+      (function printNumbers() {
+        var counter = 1;
+        while (counter < 11) {
+          console.log(counter);
+          counter++;
+        }
+      })();
+      (function printEvenNumbers() {
+        var counter = 2;
+        while (counter < 11) {
+          console.log(counter);
+          counter += 2;
+        }
+      })();
+      (function printOddNumbers() {
+        var counter = 1;
+        while (counter < 11) {
+          console.log(counter);
+          counter += 2;
+        }
+      })();
+    </script> -->
+
+    <!-- <script>
+      (function printNumbers() {
+        let numbers = [1, 6, 76, 34, 5, 9];
+        var counter = 1;
+        for (var counter = 1; counter < numbers.length; counter++) {
+          console.log(numbers[counter]);
+          if (numbers[counter] == 34) {
+            //break;
+            
+          }
+        }
+      })();
+    </script> -->
+
+    <!-- <script>
+      //for skipping the value
+      (function printNumbers() {
+        let numbers = [1, 6, 76, 34, 5, 9];
+        for (var counter = 0; counter < numbers.length; counter++) {
+          if (numbers[counter] == 34) {
+            continue;
+          }
+          console.log(numbers[counter]);
+        }
+      })();
+    </script> -->
+
+    <!-- <script>
+      var sum = 0;
+      for (var i = 0, j = 0; (i < 10) & (j < 10); ++i, j = i + 2) {
+        console.log(i);
+        console.log(j);
+        sum += i;
+      }
+      console.log(sum);
+    </script> -->
+
+    <!-- <script>
+      function isVotingAge(age) {
+        if (age > 18) return true;
+        else {
+          return false;
+        }
+      }
+      var age = 25;
+      console.log(isVotingAge(age));
+    </script> -->
+
+    <!-- <h1>IncresingOrder & DereasingOrder</h1> -->
+    <!-- <script>
+      function IncresingOrder_DereasingOrder() {
+        var a, b, c;
+        var num = document.getElementById("num").value;
+        if (a < b && b < c) {
+          console.log("Increasing order");
+        } else if (a > b && b > c) {
+          console.log("Decreasing order");
+        } else {
+          console.log("Neither increasing or decreasing order");
+        }
+      }
+    </script>
+    <div>
+      <label for="num" id="myLable">my num</label>
+      <input type="text" id="num" />
+      <button onclick="IncresingOrder_DereasingOrder()">InputNumber</button>
+    </div> -->
+
+    <!-- <script>
+      (function () {
+        function largest(a, b, c) {
+          if (a > b && a > c) {
+            return a;
+          } else if (b > a && b > c) {
+            return b;
+          } else {
+            return c;
+          }
+        }
+
+        console.log("largest(4, 78, 9)" + largest(4, 78, 9));
+        console.log("largest(41, 8, 19)" + largest(41, 8, 19));
+        console.log("largest(41, 28, 95)" + largest(41, 28, 95));
+        console.log("largest(35, 65, 85)" + largest(35, 65, 85));
+      })();
+    </script> -->
+
+    <!-- <h1>Check your Grade:</h1> -->
+    <!-- <script>
+      (function CheckGrade() {
+        var marks = document.getElementById("Enter  your marks").value;
+        var CheckGrade = document.getElementById().value;
+        if (score >= 90) {
+          grade = "A";
+        } else {
+          if (score >= 80 && score <= 89) {
+            grade = "B";
+          } else {
+            if (score >= 33 && score <= 59) {
+              grade = "D";
+            } else {
+              grade = "F";
+            }
+          }
+        }
+        console.log(grade);
+      });
+    </script>
+    <div>
+      <label for="Enter your marks" id="marks">marks</label>
+      <input type="text" id="marks" />
+      <button onclick="grade()">Enter</button>
+    </div> -->
+
+    <!-- <script>
+      (function () {
+        function getMinLecture(M, N) {
+          if ((N / M) * 100 >= 75) {
+            return 0;
+          } else {
+            return (75 / 100) * M - N;
+          }
+        }
+        console.log("getMinLecture(10,8) " + getMinLecture(10, 8));
+        console.log("getMinLecture(10,2) " + getMinLecture(10, 2));
+        console.log("getMinLecture(10,6) " + getMinLecture(10, 6));
+      })();
+    </script> -->
+
+    <!-- <script>
+      (function () {
+        function getQuadraticEquation(a, b, c) {
+          var discriminant = b * b - 4 * a * c;
+          if (discriminant == 0) {
+            return -b / (2 * a);
+          } else if (discriminant > 0) {
+            var root1 = ((-b + Math.sqrt(discriminant)) / 2) * a;
+            var root2 = -b + (Math.sqrt(discriminant) / 2) * a;
+            return {
+              root1,
+              root2,
+            };
+          } else {
+            return " No roots";
+          }
+        }
+
+        console.log(
+          "getQuadraticEquation(1,5,1) " + getQuadraticEquation(1, 5, 1)
+        );
+      })();
+    </script> -->
+
+    <script></script>
+  </body>
+</html>
