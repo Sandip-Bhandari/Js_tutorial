@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function square(num) {
+        return num * num;
+      }
+
+      function calculate() {
+        let usrInput = document.getElementById("number").value;
+        let output = square(usrInput);
+        let outputElement = document.getElementById("output");
+        outputElement.value = output;
+      }
+    </script>
+  </head>
+  <body>
+    <label for="number">Enter your Number:</label>
+    <input type="text" id="number" />
+    <button id="submit" onclick="calculate()">square</button>
+    <br />
+    <br />
+    <label for="number"> Your Square is:</label>
+    <input type="text" id="output" />
+  </body>
+</html>
