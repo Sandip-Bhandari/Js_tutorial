@@ -1,3 +1,11 @@
+//Problem Statement:
+//Given two numbers A and B, You are supposed to find the sum of A and B without using the addition
+//operator i.e. `+`
+//Example:
+//Input A = 10
+//B = 5
+//Output 15
+
 (function () {
   function getSummationLessAdd(num1, num2) {
     if (num1 < 0 && num2 < 0) {
