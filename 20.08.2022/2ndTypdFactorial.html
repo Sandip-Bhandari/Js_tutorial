@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function factorial(n) {
+        if (n == 0) return 1; // tail condition
+
+        return n * factorial(n - 1);
+      }
+
+      function calculate() {
+        let number = document.getElementById("input").value; //getting the value
+        document.getElementById("output").value = factorial(number); // setting the value
+      }
+    </script>
+  </head>
+  <body>
+    <label for="number">Enter your number here :</label>
+    <input type="text" id="input" />
+    <button id="submit" onclick="calculate()">Factorial</button>
+    <br />
+    <br />
+    <label for="number"> Your factorial:</label>
+    <input type="text" id="output" />
+  </body>
+</html>
