@@ -1,3 +1,6 @@
+// Closure : closure is a feature in JavaScript where a functon has access to its own scope variables,
+//  access to the outer function.
+
 (function () {
   function SuperHero() {
     let firstName = "Peter";
