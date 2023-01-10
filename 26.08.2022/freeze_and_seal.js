@@ -2,6 +2,7 @@
   "use strict";
 
   //TODO:  Object.freeze()
+  //? The object.freeze() method freezes an object for preventing the changes.
 
   let learner = {};
   learner.name = "Jayesh";
@@ -12,6 +13,7 @@
   //  delete learner.lastName;  // Error
 
   //TODO:  Object.seal()
+  //? The object.seal() method seals an object
 
   let student = {};
   student.name = "Salman";
