@@ -1,7 +1,8 @@
 (function () {
   "use strict";
 
-  // Freeze
+  //TODO:  Object.freeze()
+
   let learner = {};
   learner.name = "Jayesh";
   learner.lastName = "Chauhan";
@@ -10,7 +11,7 @@
   //  learner.middleName = "XYX";  //Error
   //  delete learner.lastName;  // Error
 
-  // Seal
+  //TODO:  Object.seal()
 
   let student = {};
   student.name = "Salman";
