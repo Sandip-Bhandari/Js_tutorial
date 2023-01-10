@@ -1,8 +1,8 @@
-//? The filter() function is used while creating a search bar with a given list of items.
-//?The filter() method also creates a new array by exevery element of the array, and keeps
-//? it in the resulting array IF and ONLY IF the element passes the Boolean test returned by
-//? thThe callback passed into the filter() method accepts any of the three arguments: item,
-//?  index and array; same as the map() method.
+// The filter() function is used while creating a search bar with a given list of items.
+//The filter() method also creates a new array by exevery element of the array, and keeps
+// it in the resulting array IF and ONLY IF the element passes the Boolean test returned by
+// thThe callback passed into the filter() method accepts any of the three arguments: item,
+//  index and array; same as the map() method.
 
 (function () {
   let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
