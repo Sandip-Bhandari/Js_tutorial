@@ -12,8 +12,8 @@
   // to print all keys
   console.log(keys);
 
-  //['java', 'javascript', 'nodejs', 'php']
-  //iterate over object
+  // ['java', 'javascript', 'nodejs', 'php']
+  // iterate over object
   keys.forEach((key, index) => {
     console.log(`${key}: ${array_name_courses[key]}`);
   });

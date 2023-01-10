@@ -1,6 +1,6 @@
 (function () {
   let names = [];
-  console.log(names.length); //0
+  console.log(names.length); // 0
   console.log(names.push("Harish"));
   console.log(names.push("Mani")); //inserts at the end
 
