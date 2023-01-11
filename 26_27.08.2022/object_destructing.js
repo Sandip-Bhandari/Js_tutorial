@@ -1,4 +1,4 @@
-//Object Destructuring
+//Object Destructing
 
 (function () {
   let learner = {

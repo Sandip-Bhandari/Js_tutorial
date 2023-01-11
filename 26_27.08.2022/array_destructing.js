@@ -1,5 +1,5 @@
 (function () {
-  //TODO: Array destructuring
+  //TODO: Array destructing
   let name = ["Vijay", "J", "Shekhawat"];
   // let lastName = name[2];
   // let firstName = name[0];
