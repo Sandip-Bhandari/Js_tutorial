@@ -12,12 +12,12 @@
   var link = anchor.split("'");
   console.log(link);
 
-  //slice
+  //slice:
   let cities = ["Mumbai", "Chennai", "Kolkatta", "Delhi"];
   let slicedCities = cities.slice(0, -2);
   console.log(slicedCities);
 
-  // splice
+  // splice:
   console.lo("===================== SPLICE =======");
   let states = ["Maharashtra", "TN", "WB", "Delhi"];
   let removedStates = states.splice(1, 2);

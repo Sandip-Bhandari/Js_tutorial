@@ -1,3 +1,5 @@
+//Object Comparison
+
 (function () {
   let obj1 = {
     name: "John",
@@ -24,7 +26,6 @@
         break;
       }
     }
-
     return equal;
   }
 

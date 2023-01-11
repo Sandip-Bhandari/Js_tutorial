@@ -1,3 +1,5 @@
+//Object Destructuring
+
 (function () {
   let learner = {
     name: "XYZ",
