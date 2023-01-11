@@ -18,7 +18,7 @@
   console.log(slicedCities);
 
   // splice
-  console.log("===================== SPLICE =======");
+  console.lo("===================== SPLICE =======");
   let states = ["Maharashtra", "TN", "WB", "Delhi"];
   let removedStates = states.splice(1, 2);
   console.log(states); // MH, Delhi
