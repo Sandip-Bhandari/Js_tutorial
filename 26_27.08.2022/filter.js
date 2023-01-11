@@ -1,5 +1,5 @@
 // The filter() function is used while creating a search bar with a given list of items.
-//The filter() method also creates a new array by exevery element of the array, and keeps
+// The filter() method also creates a new array by exevery element of the array, and keeps
 // it in the resulting array IF and ONLY IF the element passes the Boolean test returned by
 // thThe callback passed into the filter() method accepts any of the three arguments: item,
 //  index and array; same as the map() method.

@@ -3,7 +3,7 @@
 //? will map each of the return values of the callback and create a new array.
 //? The callback passed to the map() function can accept any of the three arguments: item, index, array
 
-//TODO: The callback passed to the map() function can accept any of the three arguments: item, index, array.
+//? The callback passed to the map() function can accept any of the three arguments: item, index, array.
 
 (function () {
   let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

@@ -8,7 +8,7 @@
 
   let heroes = [
     {
-      name: "Tony",
+      name: "Tonny",
       lastName: "Stark",
     },
     {

@@ -1,3 +1,5 @@
+//Reduce:
+
 (function () {
   let numbers = [9, 23, 8, 5, 4, 2];
   let sum = numbers.reduce(function (prev, curr) {

@@ -13,7 +13,7 @@
       role: "Lead",
     },
     {
-      name: "Ajay",
+      name: "Sanjay",
       role: "Senior",
     },
     {

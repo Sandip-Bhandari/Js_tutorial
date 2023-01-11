@@ -9,6 +9,7 @@
   learner.lastName = "Chauhan";
 
   Object.freeze(learner);
+
   //  learner.middleName = "XYX";  //Error
   //  delete learner.lastName;  // Error
 
