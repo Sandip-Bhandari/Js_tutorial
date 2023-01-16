@@ -1,4 +1,4 @@
-//TODO? SPARSE ARRAY
+//TODO: SPARSE ARRAY
 
 // Given a 2D array. Our task is to check if the array is sparse or not.
 // Sparse Matrix - A matrix is said to be sparse if the number of zeros is more than half of the total elements.
