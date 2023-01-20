@@ -13,6 +13,7 @@ function changeToUppercase(str, index) {
   return str.toUpperCase();
 }
 let companies = ["apple", "meta", "microsoft", "google"];
+// let newArr = companies.map((company) => company.toUpperCase());
 let newArr = companies.map(changeToUppercase);
 console.log(newArr);
 
