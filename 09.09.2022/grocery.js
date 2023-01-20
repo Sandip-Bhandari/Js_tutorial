@@ -1,3 +1,4 @@
+//JSON Nested
 let groceries = [
   {
     name: "Apple",
