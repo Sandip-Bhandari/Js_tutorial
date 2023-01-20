@@ -32,8 +32,8 @@
     outerFunction: function () {
       let self = this; // obj'context.Now self contains obj
       return function innerFunction() {
-        console.log("From Inner " + self.name);
-        console.log("From Inner this " + this.name);
+        console.log("From Inner " + self.name); //vijay
+        console.log("From Inner this " + this.name); //jayesh
       };
     },
   };
