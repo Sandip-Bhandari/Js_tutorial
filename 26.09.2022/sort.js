@@ -75,12 +75,12 @@ function sortByProperty(arr, property) {
   });
 }
 
-// sort it by rating
+// Sort it by rating
 console.log("using rating");
 sortByProperty(superHeroes, "rating");
 console.log(superHeroes);
 
-// sort it by strength
+// Sort it by strength
 console.log("using strength");
 sortByProperty(superHeroes, "strength");
 console.log(superHeroes);

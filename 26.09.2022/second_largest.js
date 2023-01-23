@@ -11,7 +11,7 @@ function getSecondLargestNumber(arr, N) {
     if (arr[i] != arr[0]) {
       return arr[i];
     }
-  } //n
+  } // n
 
   return "There is no second element";
 }
@@ -34,14 +34,14 @@ function getSecondLargestNumber2(arr, N) {
   return secondLargest == -24637 ? "There is no second element" : secondLargest;
 }
 
-console.log("Method 1");
+console.log("Method 1"); // Method -1
 console.log(getSecondLargestNumber([87, -3, 5, 1, 0, 13], 6));
 console.log(getSecondLargestNumber([87, 87, 28], 3));
 console.log(getSecondLargestNumber([87], 1));
 console.log(getSecondLargestNumber([87, 87, 87, 87], 4));
 console.log(getSecondLargestNumber([87, -3, -5], 3));
 
-console.log("Method 2");
+console.log("Method 2"); // Method -2
 console.log(getSecondLargestNumber2([87, 3, 5, 1, 0, 13], 6));
 console.log(getSecondLargestNumber2([87, 87, 28], 3));
 console.log(getSecondLargestNumber2([87], 1));
