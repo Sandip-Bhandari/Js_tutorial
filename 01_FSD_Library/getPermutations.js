@@ -26,5 +26,5 @@
     return mr;
   }
 
-  console.log(getPermutations("abc"));
+  console.log(getPermutations("abcd"));
 })();
