@@ -1,3 +1,5 @@
+//Write a program to find the lenght of string using recursion.
+
 (function () {
   function lengthOfString(str) {
     if (str == "") {
