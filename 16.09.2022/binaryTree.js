@@ -21,6 +21,7 @@ function printLeafNodes(rootNode) {
 
   if (rootNode.left == null && rootNode.right == null) {
     console.log(rootNode.data);
+
     return;
   }
 
